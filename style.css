@@ -35,13 +35,14 @@ body * {
 }
 
 #container {
-  width: 360px;
+  width: 100%;
+  max-width: 588px;
+
   /*
   (mesmo efeito de "margin: auto;)
   margin-right: auto;
   margin-left: auto;
   */
-
   margin: auto;
   padding-top: 56px;
   /* ou margin-top: 56px; */
